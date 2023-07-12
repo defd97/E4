@@ -1,0 +1,486 @@
+/* Variables */
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-lg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+  
+    /* Text colors */
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+  
+    /* Decoration */
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+  }
+
+
+   body {
+    background: var(--background);
+  
+   }
+
+  
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*.central{
+  width: 98%;
+  height: auto;
+
+} */
+
+header{
+    width: 100%;
+    background: var(--background);
+    
+    /*background: rgb(3,0,45);
+background: linear-gradient(90deg, rgba(3,0,45,0.9588984604105572) 0%, rgba(52,21,96,1) 100%);
+    height: 70px;*/
+    }
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    /*background: black;*/
+    margin: auto;
+    
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: yellow;*/
+    float: left;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    /*background: red;*/
+    float: left;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.logo p a {
+    color:grey;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color:grey;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform:uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: rale;
+    
+}
+
+nav ul li a:hover{
+    color: #444;
+}
+
+@font-face {
+    font-family: rale;
+    src: url(./fuente/Raleway-Regular.ttf);
+}
+
+
+.imgLogo{
+    height: 65px;
+    width: 65px;
+    display: flex;
+    border-left: #444;
+    border-radius: 50%;
+    border: 3.5px solid grey;
+    font-weight: bold;
+  }
+  .imgLogo img{
+    height: 100%;
+    width: 100%;
+    border-left: grey;
+    font-weight: bold;
+}
+    
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 90px;
+    background-color:black;
+    gap: 15px;
+    box-shadow: 0px 7px 18px 1px rgba(0, 0, 0, 0.75);}
+
+
+    @font-face{
+        font-family: rale;
+        src: url(./fuente/Raleway-Regular.ttf);
+    }
+
+  
+
+      #hero {
+        max-width: 1200px;
+        /* margin: 0 auto; */
+        margin-top: 65px;
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--background);
+        
+      }
+
+      .hero-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 50%;
+      }
+      
+      .hero-info h1 {
+        font-size: 48px;
+        font-weight: 800;
+        width: 80%;
+        min-width: 500px;
+        color: white;
+      }
+      
+      .hero-info p {
+        font-size: 14px;
+        width: 70%;
+        color: var(--text-gray);
+      }
+
+      .hero-info a {
+        color: var(--text-white);
+        background: var(--primary);
+        padding: 8px 12px;
+        border-radius: 8px;
+        text-decoration: none;
+
+      }
+
+      .logo-portada{
+        width: 400px;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+   
+
+    .h2 {
+      background: var(--background);
+      color: white;
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0%;
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .titulo2 h2 {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+     
+  }
+
+  .caja-tienda{
+    display: flex;
+    justify-content: center;
+}
+  
+  
+  .accesos {
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: 27%;
+    height: auto;
+    background-color: var(--background); 
+    /*border: 1px solid #8BFF00;*/
+    border-radius: 10px;
+    margin:1rem;
+    overflow: hidden;
+  }
+  
+  
+  /*.titulo{
+    margin: auto;
+  }*/
+  
+  
+  .img-escalable {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0.5%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+ .span-precio{
+  color: greenyellow;
+}
+
+/*.btn-add {
+  background: var(--primary);
+  border: none;
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: var(--text-white);
+  cursor: pointer;
+  
+}*/
+
+.footer-distributed{
+	/*background: #666;*/
+  background: var(--secondary);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	/*color:  #222;*/
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+} 
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+
+}
+
+.footer-icons span{
+  color: #1e50ff;
+  background-color: white;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+  .headerSection{
+    height: 75px;
+   
+
+  }
+
+  .imgLogo{
+    /*height: 60px;
+    width: 60px;*/
+    height: 60px;
+    width: 60px;
+  }
+
+#hero{
+  /*height: 75px;*/
+  flex-direction: column;
+		width:100%;
+  
+}
+
+.hero-info{
+  /*width: 100%;*/
+		width: 60%;
+    display: contents;
+		text-align:center
+}
+}
+
+
+
