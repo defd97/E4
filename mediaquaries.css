@@ -19,10 +19,7 @@
 
   .headerSection{
     height: 75px;
-   
-
-  }
-
+   }
   .imgLogo{
     
     height: 60px;
@@ -43,3 +40,40 @@
 
 
 } 
+
+
+@media (max-width: 542px) {
+	.central{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+
+	.headerSection{
+		display: flex;
+	}
+
+	.logo{
+		display: none;
+	}
+
+    .caja-tienda{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;		
+
+	}
+
+	.accesos{
+		display: flex;
+		width: 50%;
+			}
+
+	.h2{
+		font-size: small;
+	}
+	
+	
+}
